@@ -245,15 +245,19 @@ public class Drawline : MonoBehaviour
 
             if (Physics.SphereCast(ray, sphereCastRadius, out hit, sphereCastMaxDistance))
             {
-
+                GameObject hitObject = hit.collider.gameObject;
                 if (hit.distance > 2.0f)
                 {
-                    // The position of the collision
-                    Vector3 spawnPosition = hit.point;
-                    // Spawn the object at the collision position
-                    GameObject spawnedObject = Instantiate(objectToSpawn, spawnPosition, Quaternion.identity);
-                    // Set the next spawn time
-                    nextSpawnTime = Time.time + spawnDelay;
+                    if (hitObject.CompareTag("Root"))
+                    {
+                        // The position of the collision
+                        Vector3 spawnPosition = hit.point;
+                        // Spawn the object at the collision position
+                        GameObject spawnedObject = Instantiate(objectToSpawn, spawnPosition, Quaternion.identity);
+                        // Set the next spawn time
+                        nextSpawnTime = Time.time + spawnDelay;
+                    }
+                  
                 }
                    
             }
