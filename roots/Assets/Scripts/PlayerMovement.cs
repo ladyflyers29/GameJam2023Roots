@@ -10,7 +10,7 @@ public class PlayerMovement : MonoBehaviour
     public float groundDrag;
 
     public float jumpForce;
-    public float jumpCooldown;
+    //public float jumpCooldown;
     public float airMultiplier;
     bool readyToJump;
 
@@ -21,9 +21,10 @@ public class PlayerMovement : MonoBehaviour
     public KeyCode jumpKey = KeyCode.Space;
 
     [Header("Ground Check")]
-    public float playerHeight;
-    public LayerMask whatIsGround;
-    bool grounded;
+    //public float playerHeight;
+    //public LayerMask whatIsGround;
+    public bool grounded;
+    public GameObject playerFeet;
 
     public Transform orientation;
 
@@ -38,14 +39,13 @@ public class PlayerMovement : MonoBehaviour
     {
         rb = GetComponent<Rigidbody>();
         rb.freezeRotation = true;
-
         readyToJump = true;
     }
 
     private void Update()
     {
         // ground check
-        grounded = Physics.Raycast(transform.position, Vector3.down, playerHeight * 0.5f + 0.3f, whatIsGround);
+        // grounded = Physics.Raycast(transform.position, Vector3.down, playerHeight * 0.5f + 0.3f, whatIsGround);
 
         MyInput();
         SpeedControl();
@@ -62,20 +62,46 @@ public class PlayerMovement : MonoBehaviour
         MovePlayer();
     }
 
+    //checking if the player is on a jumpable surface/object
+    public void OnTriggerStay(Collider other)
+    {
+        if (!other.CompareTag("Respawn"))
+        {
+            grounded = true;
+        }
+    }
+
     private void MyInput()
     {
         horizontalInput = Input.GetAxisRaw("Horizontal");
         verticalInput = Input.GetAxisRaw("Vertical");
 
-        // when to jump
-        if (Input.GetKey(jumpKey) && readyToJump && grounded)
+        // when to jump 
+        // jump even if running off a platform 
+        if (Input.GetKey(jumpKey) && readyToJump /*&& grounded*/)   
         {
             readyToJump = false;
+            grounded = false;
 
             Jump();
 
-            Invoke(nameof(ResetJump), jumpCooldown);
+            if (grounded)
+            {
+                Debug.Log("on the ground");
+                readyToJump = true;
+             }
+            //Invoke(nameof(ResetJump), jumpCooldown);
         }
+
+        // unedited verion of this if statement
+        //if (Input.GetKey(jumpKey) && readyToJump && grounded)
+        //{
+        //    readyToJump = false;
+
+        //    Jump();
+
+        //    Invoke(nameof(ResetJump), jumpCooldown);
+        //}
     }
 
     private void MovePlayer()
@@ -111,8 +137,8 @@ public class PlayerMovement : MonoBehaviour
 
         rb.AddForce(transform.up * jumpForce, ForceMode.Impulse);
     }
-    private void ResetJump()
-    {
-        readyToJump = true;
-    }
+    //private void ResetJump()
+    //{
+    //    readyToJump = true;
+    //}
 }
