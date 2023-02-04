@@ -712,6 +712,7 @@ GameObject:
   - component: {fileID: 1615578800}
   - component: {fileID: 1615578801}
   - component: {fileID: 1615578802}
+  - component: {fileID: 1615578803}
   m_Layer: 0
   m_Name: player
   m_TagString: Untagged
@@ -768,6 +769,9 @@ MonoBehaviour:
   sprintSpeed: 10
   climbSpeed: 10
   groundDrag: 5
+  dashSpeed: 20
+  dashSpeedChangeFactor: 50
+  maxYSpeed: 0
   jumpForce: 12
   jumpCooldown: 0.25
   airMultiplier: 0.4
@@ -786,6 +790,7 @@ MonoBehaviour:
   orientation: {fileID: 1808325895}
   state: 0
   climbing: 0
+  dashing: 0
 --- !u!114 &1615578802
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -816,6 +821,30 @@ MonoBehaviour:
   minWallNormalAngleChange: 5
   exitingWall: 0
   exitWallTime: 0.2
+--- !u!114 &1615578803
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1615578798}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e28346620ae2f347b7b0d83e1d4b113, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  orientation: {fileID: 1808325895}
+  playerCam: {fileID: 598878399}
+  dashForce: 20
+  dashUpwardForce: 0.25
+  maxDashYSpeed: 15
+  dashDuration: 0.25
+  useCameraForward: 0
+  allowAllDirections: 1
+  disableGravity: 1
+  resetVel: 1
+  dashCd: 0.5
+  dashKey: 101
 --- !u!1 &1669920863
 GameObject:
   m_ObjectHideFlags: 0
