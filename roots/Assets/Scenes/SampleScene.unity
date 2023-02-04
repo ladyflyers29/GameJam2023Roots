@@ -369,7 +369,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd07e57006047434989189ca11a2dca9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectToSpawn: {fileID: 3084395519364586055, guid: ddbb099c8970aa446babbd5ea4d5bca3, type: 3}
+  objectToSpawn: {fileID: 450163655531074543, guid: e6c10426dc8567e438182a9cc67cff00, type: 3}
   spawnDelay: 0.1
   sphereCastRadius: 0.5
   sphereCastMaxDistance: 100000
