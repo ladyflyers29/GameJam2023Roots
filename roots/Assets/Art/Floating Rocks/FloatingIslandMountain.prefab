@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 1466979109357759259}
   - component: {fileID: 7702142628984687684}
   - component: {fileID: 4558805289796081922}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: ShaneRock5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -130,7 +130,7 @@ GameObject:
   - component: {fileID: 2586715170167669755}
   - component: {fileID: 5831943008921601532}
   - component: {fileID: 5610966438912321140}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: ShaneRock4 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -247,7 +247,7 @@ GameObject:
   - component: {fileID: 2586715171692835142}
   - component: {fileID: 5831943010416359233}
   - component: {fileID: 5610966437421765833}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: ShaneRock4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -364,7 +364,7 @@ GameObject:
   - component: {fileID: 2586715171612402583}
   - component: {fileID: 5831943010362795408}
   - component: {fileID: 5610966437367023128}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: ShaneRock4 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -481,7 +481,7 @@ GameObject:
   - component: {fileID: 7571183197097012879}
   - component: {fileID: 7571183197097012878}
   - component: {fileID: 7571183197097012877}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: ShaneRock5 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -595,7 +595,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7571183197160125085}
   - component: {fileID: 7571183197160125086}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: golden birch (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -649,7 +649,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7571183197163262648}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: NewTree
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -685,7 +685,7 @@ GameObject:
   - component: {fileID: 7571183197289517272}
   - component: {fileID: 7571183197289517255}
   - component: {fileID: 7571183197289517254}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -780,7 +780,7 @@ GameObject:
   - component: {fileID: 7571183197383479869}
   - component: {fileID: 7571183197383479871}
   - component: {fileID: 7571183197383479870}
-  m_Layer: 2
+  m_Layer: 6
   m_Name: Snow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5597,7 +5597,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7571183197387730365}
   - component: {fileID: 7571183197387730366}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: golden birch (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5653,7 +5653,7 @@ GameObject:
   - component: {fileID: 7571183197479509392}
   - component: {fileID: 7571183197479509394}
   - component: {fileID: 7571183197479509393}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Bushy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5736,7 +5736,7 @@ GameObject:
   - component: {fileID: 7571183197575164793}
   - component: {fileID: 7571183197575164792}
   - component: {fileID: 7571183197575164775}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FloatingIslandMountain
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5851,7 +5851,7 @@ GameObject:
   - component: {fileID: 7571183197617657513}
   - component: {fileID: 7571183197617657515}
   - component: {fileID: 7571183197617657514}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Leaf_LOD0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5933,7 +5933,7 @@ GameObject:
   - component: {fileID: 7571183197618167394}
   - component: {fileID: 7571183197618167396}
   - component: {fileID: 7571183197618167395}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Bottom_T.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6015,7 +6015,7 @@ GameObject:
   - component: {fileID: 7571183197636261640}
   - component: {fileID: 7571183197636261642}
   - component: {fileID: 7571183197636261641}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Mossy_Tr.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6098,7 +6098,7 @@ GameObject:
   - component: {fileID: 7571183197758840809}
   - component: {fileID: 7571183197758840808}
   - component: {fileID: 7571183197758840727}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Trunk_LOD0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6193,7 +6193,7 @@ GameObject:
   - component: {fileID: 7571183197994653046}
   - component: {fileID: 7571183197994653000}
   - component: {fileID: 7571183197994653047}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Mossy_Tr.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6276,7 +6276,7 @@ GameObject:
   - component: {fileID: 7571183198001836240}
   - component: {fileID: 7571183198001836255}
   - component: {fileID: 7571183198001836254}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6373,7 +6373,7 @@ GameObject:
   - component: {fileID: 7571183198076659939}
   - component: {fileID: 7571183198076659938}
   - component: {fileID: 7571183198076659937}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: ShaneRock5 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6489,7 +6489,7 @@ GameObject:
   - component: {fileID: 7571183198115451483}
   - component: {fileID: 7571183198115451482}
   - component: {fileID: 7571183198115451481}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: anotherRock (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6587,7 +6587,7 @@ GameObject:
   - component: {fileID: 7571183198117481515}
   - component: {fileID: 7571183198117481514}
   - component: {fileID: 7571183198117481513}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: ShaneRock5 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6703,7 +6703,7 @@ GameObject:
   - component: {fileID: 7571183198169000654}
   - component: {fileID: 7571183198169000653}
   - component: {fileID: 7571183198169000652}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6798,7 +6798,7 @@ GameObject:
   - component: {fileID: 7571183198208925286}
   - component: {fileID: 7571183198208925304}
   - component: {fileID: 7571183198208925287}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Terrain
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6875,7 +6875,7 @@ GameObject:
   - component: {fileID: 7571183198250269331}
   - component: {fileID: 7571183198250269333}
   - component: {fileID: 7571183198250269332}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Mossy_Tr.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6958,7 +6958,7 @@ GameObject:
   - component: {fileID: 7571183198295695277}
   - component: {fileID: 7571183198295695276}
   - component: {fileID: 7571183198295695275}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: anotherRock
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7054,7 +7054,7 @@ GameObject:
   - component: {fileID: 7571183198305840605}
   - component: {fileID: 7571183198305840607}
   - component: {fileID: 7571183198305840606}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Leaf_LOD0 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7136,7 +7136,7 @@ GameObject:
   - component: {fileID: 7571183198322666891}
   - component: {fileID: 7571183198322666893}
   - component: {fileID: 7571183198322666892}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Leaf_LOD0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7218,7 +7218,7 @@ GameObject:
   - component: {fileID: 7571183198343623532}
   - component: {fileID: 7571183198343623534}
   - component: {fileID: 7571183198343623533}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Leaf_LOD0 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7298,7 +7298,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7571183198404422416}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: NewTree
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7331,7 +7331,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7571183198420577915}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: NewTree
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7366,7 +7366,7 @@ GameObject:
   - component: {fileID: 7571183198483169334}
   - component: {fileID: 7571183198483169288}
   - component: {fileID: 7571183198483169335}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Bushy (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7447,7 +7447,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7571183198655672710}
   - component: {fileID: 7571183198655672711}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: golden birch (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7503,7 +7503,7 @@ GameObject:
   - component: {fileID: 7571183198704067393}
   - component: {fileID: 7571183198704067395}
   - component: {fileID: 7571183198704067394}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Bottom_T.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7585,7 +7585,7 @@ GameObject:
   - component: {fileID: 7571183198719411805}
   - component: {fileID: 7571183198719411807}
   - component: {fileID: 7571183198719411806}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Leaf_LOD0 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7667,7 +7667,7 @@ GameObject:
   - component: {fileID: 7571183198730029876}
   - component: {fileID: 7571183198730029878}
   - component: {fileID: 7571183198730029877}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Leaf_LOD0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7749,7 +7749,7 @@ GameObject:
   - component: {fileID: 7571183198769510812}
   - component: {fileID: 7571183198769510814}
   - component: {fileID: 7571183198769510813}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Bottom_T.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7832,7 +7832,7 @@ GameObject:
   - component: {fileID: 7571183198773532800}
   - component: {fileID: 7571183198773532815}
   - component: {fileID: 7571183198773532814}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Trunk_LOD0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7929,7 +7929,7 @@ GameObject:
   - component: {fileID: 7571183198812344076}
   - component: {fileID: 7571183198812344075}
   - component: {fileID: 7571183198812344074}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: ShaneRock5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8045,7 +8045,7 @@ GameObject:
   - component: {fileID: 7571183199133333664}
   - component: {fileID: 7571183199133333679}
   - component: {fileID: 7571183199133333678}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Trunk_LOD0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8140,7 +8140,7 @@ GameObject:
   - component: {fileID: 7571183199203326782}
   - component: {fileID: 7571183199203326768}
   - component: {fileID: 7571183199203326783}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: IL3DN_GodRays
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12961,7 +12961,7 @@ GameObject:
   - component: {fileID: 5565165002177118600}
   - component: {fileID: 46301619827876402}
   - component: {fileID: 7237530568518773491}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SkyChange
   m_TagString: Untagged
   m_Icon: {fileID: 0}

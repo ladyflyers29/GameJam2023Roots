@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 3642098449533139745}
   - component: {fileID: 1544631832073244651}
   - component: {fileID: 9030200717293056620}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: anotherRock
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -109,7 +109,7 @@ GameObject:
   - component: {fileID: 3642098448483966248}
   - component: {fileID: 1544631833104460258}
   - component: {fileID: 9030200716260922469}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: anotherRock (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -205,7 +205,7 @@ GameObject:
   - component: {fileID: 1463774632098499997}
   - component: {fileID: 1463774632098499998}
   - component: {fileID: 1463774632098499999}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: IL3DN_GodRays
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5026,7 +5026,7 @@ GameObject:
   - component: {fileID: 6578001188680670652}
   - component: {fileID: 9129714007331318675}
   - component: {fileID: 2788129234827575507}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: skychange
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5157,7 +5157,7 @@ GameObject:
   - component: {fileID: 6622136916565209462}
   - component: {fileID: 2692816277837714985}
   - component: {fileID: 8140659344956523375}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: ShaneRock5 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5274,7 +5274,7 @@ GameObject:
   - component: {fileID: 6622136916449022001}
   - component: {fileID: 2692816277181265774}
   - component: {fileID: 8140659345646314024}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: ShaneRock5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5391,7 +5391,7 @@ GameObject:
   - component: {fileID: 6622136917219225738}
   - component: {fileID: 2692816278492321749}
   - component: {fileID: 8140659346416435859}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: ShaneRock5 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5507,7 +5507,7 @@ GameObject:
   - component: {fileID: 8904236791772392552}
   - component: {fileID: 6662727544071936162}
   - component: {fileID: 2502247677736240512}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: cactus (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5604,7 +5604,7 @@ GameObject:
   - component: {fileID: 8893845701775038431}
   - component: {fileID: 6668070466541806357}
   - component: {fileID: 5154724583220232899}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FloatingIslandDesert
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5717,7 +5717,7 @@ GameObject:
   - component: {fileID: 7838988998043425726}
   - component: {fileID: 5417084607571046260}
   - component: {fileID: 4625500460015767567}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: cactus
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5815,7 +5815,7 @@ GameObject:
   - component: {fileID: 6695951175472159650}
   - component: {fileID: 6695951175472159651}
   - component: {fileID: 6695951175472159660}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: ShaneRock5 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5932,7 +5932,7 @@ GameObject:
   - component: {fileID: 6695951175634903950}
   - component: {fileID: 6695951175634903951}
   - component: {fileID: 6695951175634903944}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: ShaneRock5 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6047,7 +6047,7 @@ GameObject:
   - component: {fileID: 6695951176364524911}
   - component: {fileID: 6695951176364524909}
   - component: {fileID: 6695951176364524910}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Terrain (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6126,7 +6126,7 @@ GameObject:
   - component: {fileID: 6695951176443925227}
   - component: {fileID: 6695951176443925012}
   - component: {fileID: 6695951176443925013}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: ShaneRock5 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6243,7 +6243,7 @@ GameObject:
   - component: {fileID: 6695951176613681370}
   - component: {fileID: 6695951176613681371}
   - component: {fileID: 6695951176613681348}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: ShaneRock5 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6360,7 +6360,7 @@ GameObject:
   - component: {fileID: 6695951176705520219}
   - component: {fileID: 6695951176705520196}
   - component: {fileID: 6695951176705520197}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: ShaneRock5 (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6475,7 +6475,7 @@ GameObject:
   - component: {fileID: 7862268213948278311}
   - component: {fileID: 7862268213948278310}
   - component: {fileID: 7862268213948278305}
-  m_Layer: 2
+  m_Layer: 6
   m_Name: Snow
   m_TagString: Untagged
   m_Icon: {fileID: 0}

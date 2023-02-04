@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 715503556110582489}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: NewTree
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47,7 +47,7 @@ GameObject:
   - component: {fileID: 2886309907306481862}
   - component: {fileID: 9017240350456710927}
   - component: {fileID: 2180303812705301106}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SkyChange
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -176,7 +176,7 @@ GameObject:
   - component: {fileID: 2203337891763337622}
   - component: {fileID: 2203337891763337623}
   - component: {fileID: 2203337891763337616}
-  m_Layer: 2
+  m_Layer: 6
   m_Name: Snow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4994,7 +4994,7 @@ GameObject:
   - component: {fileID: 2732047881590578093}
   - component: {fileID: 5308050635359041545}
   - component: {fileID: 4819542330897994575}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Leaf_LOD0 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5078,7 +5078,7 @@ GameObject:
   - component: {fileID: 2911921425329422697}
   - component: {fileID: 6255914708254762550}
   - component: {fileID: 249626385777931120}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: ShaneRock5 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5195,7 +5195,7 @@ GameObject:
   - component: {fileID: 2911921424871943995}
   - component: {fileID: 6255914707797002340}
   - component: {fileID: 249626386385394978}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: ShaneRock5 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5312,7 +5312,7 @@ GameObject:
   - component: {fileID: 2911921426331332295}
   - component: {fileID: 6255914709256849816}
   - component: {fileID: 249626387039935710}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: ShaneRock5 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5429,7 +5429,7 @@ GameObject:
   - component: {fileID: 2911921425646129024}
   - component: {fileID: 6255914709104077023}
   - component: {fileID: 249626387159924121}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: ShaneRock5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5545,7 +5545,7 @@ GameObject:
   - component: {fileID: 640354335584340078}
   - component: {fileID: 3388406395206515876}
   - component: {fileID: 3748954055450140018}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FloatingIslandSnow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5658,7 +5658,7 @@ GameObject:
   - component: {fileID: 8621873366544603096}
   - component: {fileID: 2283411885665907876}
   - component: {fileID: 735885062844291595}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5754,7 +5754,7 @@ GameObject:
   - component: {fileID: 8738788758565589007}
   - component: {fileID: 102215600587907288}
   - component: {fileID: 3865567948706029485}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Trunk_LOD0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5849,7 +5849,7 @@ GameObject:
   - component: {fileID: 3393906195842895683}
   - component: {fileID: 8929288289851873562}
   - component: {fileID: 1842280667705816775}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Mossy_Tr.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5931,7 +5931,7 @@ GameObject:
   - component: {fileID: 7870201558072662752}
   - component: {fileID: 8043030746769324419}
   - component: {fileID: 3938313744065069847}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Leaf_LOD0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6014,7 +6014,7 @@ GameObject:
   - component: {fileID: 5759743096721462252}
   - component: {fileID: 5750360206519966948}
   - component: {fileID: 5727045779780415686}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Rocks_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6111,7 +6111,7 @@ GameObject:
   - component: {fileID: 5759622837945559789}
   - component: {fileID: 5750102732853655229}
   - component: {fileID: 5728534441702567995}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Rock_Winter
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6208,7 +6208,7 @@ GameObject:
   - component: {fileID: 5760082968599724065}
   - component: {fileID: 5750520606533546089}
   - component: {fileID: 5727537178962855399}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Rocks_1_Winter (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6305,7 +6305,7 @@ GameObject:
   - component: {fileID: 5760082968712130830}
   - component: {fileID: 5750520606483923270}
   - component: {fileID: 5727537178781398216}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Rocks_1_Winter
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6402,7 +6402,7 @@ GameObject:
   - component: {fileID: 5759966818915708693}
   - component: {fileID: 5749915479676855989}
   - component: {fileID: 5726952806229472199}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Rocks_3_Winter
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6498,7 +6498,7 @@ GameObject:
   - component: {fileID: 6134122185131134910}
   - component: {fileID: 6134122185131134909}
   - component: {fileID: 6134122185131134908}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Terrain
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6574,7 +6574,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1559943257116851730}
   - component: {fileID: 6936128802339257889}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: golden birch
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6630,7 +6630,7 @@ GameObject:
   - component: {fileID: 7484956392444973612}
   - component: {fileID: 7484956392444973615}
   - component: {fileID: 7484956392444973614}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: IL3DN_GodRays
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11448,7 +11448,7 @@ GameObject:
   - component: {fileID: 5288619186847614708}
   - component: {fileID: 8177695442239852033}
   - component: {fileID: 5156416088046201090}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Bottom_T.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11531,7 +11531,7 @@ GameObject:
   - component: {fileID: 4685118368438420121}
   - component: {fileID: 7412948199800763987}
   - component: {fileID: 1071294715996441556}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: anotherRock (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11628,7 +11628,7 @@ GameObject:
   - component: {fileID: 4685118367389000848}
   - component: {fileID: 7412948200831701082}
   - component: {fileID: 1071294714964585949}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: anotherRock
   m_TagString: Untagged
   m_Icon: {fileID: 0}
