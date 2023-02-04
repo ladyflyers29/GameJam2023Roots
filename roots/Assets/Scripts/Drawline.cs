@@ -231,6 +231,7 @@ public class Drawline : MonoBehaviour
     */
 
     public GameObject objectToSpawn; // Reference to the object to spawn
+    public GameObject objectToSpawn2;
     public float spawnDelay = 1f; // The delay between each spawn
     public float sphereCastRadius = 1f; // The radius of the sphere cast
     public float sphereCastMaxDistance = 20f; // The maximum distance of the sphere cast
@@ -257,7 +258,17 @@ public class Drawline : MonoBehaviour
                         // Set the next spawn time
                         nextSpawnTime = Time.time + spawnDelay;
                     }
-                  
+
+                    else if (hitObject.CompareTag("Root2"))
+                    {
+                        // The position of the collision
+                        Vector3 spawnPosition = hit.point;
+                        // Spawn the object at the collision position
+                        GameObject spawnedObject = Instantiate(objectToSpawn2, spawnPosition, Quaternion.identity);
+                        // Set the next spawn time
+                        nextSpawnTime = Time.time + spawnDelay;
+                    }
+
                 }
                    
             }
