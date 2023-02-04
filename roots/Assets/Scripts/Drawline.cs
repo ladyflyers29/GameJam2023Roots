@@ -230,6 +230,10 @@ public class Drawline : MonoBehaviour
     }
     */
 
+
+    public float ResourceLimitTotal = 50f;
+    public float CurrentResourceLimit = 50f;
+
     public GameObject objectToSpawn; // Reference to the object to spawn
     public GameObject objectToSpawn2;
     public float spawnDelay = 1f; // The delay between each spawn
@@ -239,6 +243,8 @@ public class Drawline : MonoBehaviour
 
     void Update()
     {
+        
+
         if (Input.GetMouseButton(0) && Time.time >= nextSpawnTime) // Left mouse button held down and enough time has passed
         {
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
@@ -247,26 +253,41 @@ public class Drawline : MonoBehaviour
             if (Physics.SphereCast(ray, sphereCastRadius, out hit, sphereCastMaxDistance))
             {
                 GameObject hitObject = hit.collider.gameObject;
-                if (hit.distance > 2.0f)
+                if (hit.distance > 1.5f)
                 {
-                    if (hitObject.CompareTag("Root"))
+
+                    
+                    CurrentResourceLimit -= Time.deltaTime + 1;
+                    if (hitObject.CompareTag("Root") && CurrentResourceLimit >= 0f)
                     {
-                        // The position of the collision
-                        Vector3 spawnPosition = hit.point;
-                        // Spawn the object at the collision position
-                        GameObject spawnedObject = Instantiate(objectToSpawn, spawnPosition, Quaternion.identity);
-                        // Set the next spawn time
-                        nextSpawnTime = Time.time + spawnDelay;
+
+                        
+                        if (CurrentResourceLimit > 0f)
+                        {
+                            
+                            // The position of the collision
+                            Vector3 spawnPosition = hit.point;
+                            // Spawn the object at the collision position
+                            GameObject spawnedObject = Instantiate(objectToSpawn, spawnPosition, Quaternion.identity);
+                            // Set the next spawn time
+                            nextSpawnTime = Time.time + spawnDelay;
+                           
+                        }
+                       
                     }
 
                     else if (hitObject.CompareTag("Root2"))
                     {
-                        // The position of the collision
-                        Vector3 spawnPosition = hit.point;
-                        // Spawn the object at the collision position
-                        GameObject spawnedObject = Instantiate(objectToSpawn2, spawnPosition, Quaternion.identity);
-                        // Set the next spawn time
-                        nextSpawnTime = Time.time + spawnDelay;
+                        if (CurrentResourceLimit > 0f)
+                        {
+                            // The position of the collision
+                            Vector3 spawnPosition = hit.point;
+                            // Spawn the object at the collision position
+                            GameObject spawnedObject = Instantiate(objectToSpawn2, spawnPosition, Quaternion.identity);
+                            // Set the next spawn time
+                            nextSpawnTime = Time.time + spawnDelay;
+                        }
+                            
                     }
 
                 }
@@ -288,6 +309,21 @@ public class Drawline : MonoBehaviour
                     Destroy(hitObject);
                 }
             }
+        }
+    }
+
+    void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("Buff"))
+        {
+            Destroy(other.gameObject);
+            ResourceLimitTotal = ResourceLimitTotal + 10f;
+        }
+
+        if (other.CompareTag("Refresh"))
+        {
+         
+            CurrentResourceLimit = ResourceLimitTotal;
         }
     }
 

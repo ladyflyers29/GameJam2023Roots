@@ -8,6 +8,8 @@ TagManager:
   - Root
   - player
   - Root2
+  - Buff
+  - Refresh
   layers:
   - Default
   - TransparentFX
