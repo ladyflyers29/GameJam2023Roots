@@ -18,7 +18,7 @@ public class Teleport : MonoBehaviour
 
 
         // If the tag of the colliding object is allowed to teleport
-        if (other.gameObject.tag == "Player")
+        if (other.gameObject.tag == "player")
         {
 
             other.transform.position = Destination.transform.position;
@@ -37,7 +37,7 @@ public class Teleport : MonoBehaviour
 
 
         // If the tag of the colliding object is allowed to teleport
-        if (other.gameObject.tag == "Player")
+        if (other.gameObject.tag == "player")
         {
 
             other.transform.position = Destination.transform.position;
