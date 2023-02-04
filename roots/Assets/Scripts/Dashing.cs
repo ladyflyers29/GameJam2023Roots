@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Dashing : MonoBehaviour
 {
+    public GameObject dashparticle;
+
     [Header("References")]
     public Transform orientation;
     public Transform playerCam;
@@ -56,8 +58,8 @@ public class Dashing : MonoBehaviour
         pm.dashing = true;
         pm.maxYSpeed = maxDashYSpeed;
 
- //       cam.DoFov(dashFov);
-
+        //       cam.DoFov(dashFov);
+        dashparticle.SetActive(true);
         Transform forwardT;
 
         if (useCameraForward)
@@ -92,7 +94,9 @@ public class Dashing : MonoBehaviour
         pm.dashing = false;
         pm.maxYSpeed = 0;
 
-//        cam.DoFov(85f);
+        dashparticle.SetActive(false);
+
+        //        cam.DoFov(85f);
 
         if (disableGravity)
             rb.useGravity = true;
