@@ -294,7 +294,8 @@ public class Drawline : MonoBehaviour
                    
             }
         }
-        else if (Input.GetMouseButton(1)) // Right mouse button held down
+        
+        else if (Input.GetKey(KeyCode.Q)) // Right mouse button held down
         {
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
             RaycastHit hit;
@@ -310,6 +311,7 @@ public class Drawline : MonoBehaviour
                 }
             }
         }
+        
     }
 
     void OnTriggerEnter(Collider other)
