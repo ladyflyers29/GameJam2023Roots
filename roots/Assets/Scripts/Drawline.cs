@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.UI;
 using UnityEngine;
 
 public class Drawline : MonoBehaviour
@@ -240,10 +241,12 @@ public class Drawline : MonoBehaviour
     public float sphereCastRadius = 1f; // The radius of the sphere cast
     public float sphereCastMaxDistance = 20f; // The maximum distance of the sphere cast
     private float nextSpawnTime; // The time at which the next spawn can occur
+    public GameObject resourceSlider;
 
     void Update()
     {
-        
+        resourceSlider.GetComponent<Slider>().maxValue = ResourceLimitTotal;
+        resourceSlider.GetComponent<Slider>().value = CurrentResourceLimit;
 
         if (Input.GetMouseButton(0) && Time.time >= nextSpawnTime) // Left mouse button held down and enough time has passed
         {
@@ -320,12 +323,14 @@ public class Drawline : MonoBehaviour
         {
             Destroy(other.gameObject);
             ResourceLimitTotal = ResourceLimitTotal + 10f;
+            resourceSlider.GetComponent<Slider>().maxValue = ResourceLimitTotal; 
         }
 
         if (other.CompareTag("Refresh"))
         {
          
             CurrentResourceLimit = ResourceLimitTotal;
+            resourceSlider.GetComponent<Slider>().value = CurrentResourceLimit;
         }
     }
 
