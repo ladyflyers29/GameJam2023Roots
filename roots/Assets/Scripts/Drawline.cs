@@ -257,7 +257,7 @@ public class Drawline : MonoBehaviour
                 {
 
                     
-                    CurrentResourceLimit -= Time.deltaTime + 1;
+                    CurrentResourceLimit -= Time.deltaTime;
                     if (hitObject.CompareTag("Root") && CurrentResourceLimit >= 0f)
                     {
 
