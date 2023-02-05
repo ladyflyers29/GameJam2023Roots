@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Dashing : MonoBehaviour
 {
+
+    public AudioSource windsound;
     public GameObject dashparticle;
 
     [Header("References")]
@@ -60,6 +62,7 @@ public class Dashing : MonoBehaviour
 
         //       cam.DoFov(dashFov);
         dashparticle.SetActive(true);
+        windsound.Play();
         Transform forwardT;
 
         if (useCameraForward)
