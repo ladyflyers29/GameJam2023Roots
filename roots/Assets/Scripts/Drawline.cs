@@ -260,14 +260,14 @@ public class Drawline : MonoBehaviour
                 {
 
                     
-                    CurrentResourceLimit -= Time.deltaTime + 1;
+                    
                     if (hitObject.CompareTag("Root") && CurrentResourceLimit >= 0f)
                     {
 
-                        
+                      
                         if (CurrentResourceLimit > 0f)
                         {
-                            
+                            CurrentResourceLimit -= Time.deltaTime + 1f;
                             // The position of the collision
                             Vector3 spawnPosition = hit.point;
                             // Spawn the object at the collision position
@@ -283,6 +283,7 @@ public class Drawline : MonoBehaviour
                     {
                         if (CurrentResourceLimit > 0f)
                         {
+                            CurrentResourceLimit -= Time.deltaTime + 1f;
                             // The position of the collision
                             Vector3 spawnPosition = hit.point;
                             // Spawn the object at the collision position

@@ -9,6 +9,8 @@ public class spawnmeteor : MonoBehaviour
 
     public float timeLeft;
 
+    public float ok;
+
     void Update()
     {
         timeLeft -= Time.deltaTime;
@@ -19,7 +21,7 @@ public class spawnmeteor : MonoBehaviour
         if (timeLeft < 0)
         {
             Instantiate(m_Projectile, m_SpawnTransform.position, m_SpawnTransform.rotation);
-            timeLeft = 10;
+            timeLeft = ok;
         }
     }
 

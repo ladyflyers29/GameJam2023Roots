@@ -8,14 +8,28 @@ public class WindTunnel : MonoBehaviour
 
     void OnTriggerStay(Collider other)
     {
-        if (other.gameObject.tag == "Root" || other.gameObject.tag == "Root2")
+        if (other.gameObject.tag == "Root" || other.gameObject.tag == "Root2" || other.gameObject.tag == "SpawnedObject")
         {
             windtunnel.SetActive(false);
         }
 
-        else
+       // else
+       // {
+       //     windtunnel.SetActive(true);
+      //  }
+    }
+
+
+    void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.tag == "Root" || other.gameObject.tag == "Root2" || other.gameObject.tag == "SpawnedObject")
         {
-            windtunnel.SetActive(true);
+            windtunnel.SetActive(false);
         }
+
+       // else
+      //  {
+       //     windtunnel.SetActive(true);
+       // }
     }
 }

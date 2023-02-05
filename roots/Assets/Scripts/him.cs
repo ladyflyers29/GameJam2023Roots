@@ -12,7 +12,10 @@ public class him : MonoBehaviour
         if (other.gameObject.tag == "Player")
         {
             song.Play();
+
+            Destroy(this);
         }
+
     }
 
 }
