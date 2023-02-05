@@ -201,7 +201,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5723443209761016528}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SpaceIsland2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -573,6 +573,10 @@ PrefabInstance:
       propertyPath: m_LocalPosition.x
       value: 9.5
       objectReference: {fileID: 0}
+    - target: {fileID: 1855955712801222621, guid: 281a60dd658473c4fabb83a8b52ce55c, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 1991533468935238692, guid: 281a60dd658473c4fabb83a8b52ce55c, type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 
@@ -580,6 +584,10 @@ PrefabInstance:
     - target: {fileID: 2470087491489701016, guid: 281a60dd658473c4fabb83a8b52ce55c, type: 3}
       propertyPath: m_Name
       value: BirchTree Green1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2470087491489701016, guid: 281a60dd658473c4fabb83a8b52ce55c, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2957831208577353250, guid: 281a60dd658473c4fabb83a8b52ce55c, type: 3}
       propertyPath: m_RootOrder
@@ -625,6 +633,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8022683869975146835, guid: 281a60dd658473c4fabb83a8b52ce55c, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 281a60dd658473c4fabb83a8b52ce55c, type: 3}
 --- !u!4 &7377338838560810200 stripped
@@ -642,6 +654,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 11ec85498af071043a7920fa9dcf38d4, type: 3}
       propertyPath: m_Name
       value: EnvBranch_1 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 11ec85498af071043a7920fa9dcf38d4, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 11ec85498af071043a7920fa9dcf38d4, type: 3}
       propertyPath: m_RootOrder
@@ -716,6 +732,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 8c5d47f270d01704e92aefd13952a3b1, type: 3}
       propertyPath: m_Name
       value: EnvBranch_2 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 8c5d47f270d01704e92aefd13952a3b1, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8c5d47f270d01704e92aefd13952a3b1, type: 3}
       propertyPath: m_RootOrder
@@ -1199,6 +1219,10 @@ PrefabInstance:
       propertyPath: m_LocalPosition.x
       value: 9.5
       objectReference: {fileID: 0}
+    - target: {fileID: 1855955712801222621, guid: 281a60dd658473c4fabb83a8b52ce55c, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 1991533468935238692, guid: 281a60dd658473c4fabb83a8b52ce55c, type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 
@@ -1206,6 +1230,10 @@ PrefabInstance:
     - target: {fileID: 2470087491489701016, guid: 281a60dd658473c4fabb83a8b52ce55c, type: 3}
       propertyPath: m_Name
       value: BirchTree Green1 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2470087491489701016, guid: 281a60dd658473c4fabb83a8b52ce55c, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2957831208577353250, guid: 281a60dd658473c4fabb83a8b52ce55c, type: 3}
       propertyPath: m_RootOrder
@@ -1250,6 +1278,10 @@ PrefabInstance:
     - target: {fileID: 2957831208577353250, guid: 281a60dd658473c4fabb83a8b52ce55c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 182.348
+      objectReference: {fileID: 0}
+    - target: {fileID: 8022683869975146835, guid: 281a60dd658473c4fabb83a8b52ce55c, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 281a60dd658473c4fabb83a8b52ce55c, type: 3}
