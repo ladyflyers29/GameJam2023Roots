@@ -261,6 +261,7 @@ GameObject:
   - component: {fileID: 7451035738336603344}
   - component: {fileID: 1264347410208036167}
   - component: {fileID: 7117453294200950458}
+  - component: {fileID: 1351275279576467659}
   m_Layer: 6
   m_Name: Rootball2
   m_TagString: Root2
@@ -395,6 +396,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &1351275279576467659
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7550109786814764961}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.04429115, y: 0.04527721, z: 0.024441034}
+  m_Center: {x: 0.000119023636, y: -0.0051888553, z: 0.0031868964}
 --- !u!1 &8499764949347117777
 GameObject:
   m_ObjectHideFlags: 0

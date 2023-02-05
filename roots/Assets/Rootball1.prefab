@@ -132,6 +132,7 @@ GameObject:
   - component: {fileID: 3164688617402135844}
   - component: {fileID: 2294790906167280315}
   - component: {fileID: 7346780423003228663}
+  - component: {fileID: 709524235260853700}
   m_Layer: 6
   m_Name: Rootball1
   m_TagString: Root
@@ -264,8 +265,21 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.07688849, y: 0.07140046, z: 0.051558964}
-  m_Center: {x: 0.0018297388, y: -0.0055032824, z: 0.0015059281}
+  m_Size: {x: 0.07688849, y: 0.070512414, z: 0.051558964}
+  m_Center: {x: 0.001829739, y: -0.00594723, z: 0.0015059273}
+--- !u!65 &709524235260853700
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 855459705783977155}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.044291157, y: 0.036018386, z: 0.020037735}
+  m_Center: {x: 0.00011889484, y: -0.009818218, z: 0.0027690418}
 --- !u!1 &5133460954825954729
 GameObject:
   m_ObjectHideFlags: 0
